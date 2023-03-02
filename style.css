@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 1.8;
+  background-color: #343837;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  background-color: #0f9b8e;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  padding: 10px 17px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#home {
+  background-image: linear-gradient(
+      to top,
+      rgba(157, 188, 212, 0.55),
+      rgba(110, 90, 207, 0.55)
+    ),
+    url("img/1.jpg");
+}
+
+#about {
+  background-image: linear-gradient(
+      to top,
+      rgba(157, 188, 212, 0.55),
+      rgba(110, 90, 207, 0.55)
+    ),
+    url("img/2.jpg");
+}
+
+#services {
+  background-image: linear-gradient(
+      to top,
+      rgba(157, 188, 212, 0.55),
+      rgba(110, 90, 207, 0.55)
+    ),
+    url("img/3.jpg");
+}
+
+#contact {
+  background-image: linear-gradient(
+      to top,
+      rgba(157, 188, 212, 0.55),
+      rgba(110, 90, 207, 0.55)
+    ),
+    url("img/4.jpg");
+}
+
+section h1 {
+  font-size: 50px;
+}
+
+section p {
+  font-size: 20px;
+}
