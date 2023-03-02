@@ -23,7 +23,7 @@ body {
   z-index: 1;
   width: 100%;
   height: 60px;
-  background-color: #0f9b8e;
+  background-color: black;
 }
 
 .navbar ul {
@@ -65,7 +65,7 @@ section {
       rgba(157, 188, 212, 0.55),
       rgba(110, 90, 207, 0.55)
     ),
-    url("img/1.jpg");
+    url('img/1.jpg');
 }
 
 #about {
@@ -74,7 +74,7 @@ section {
       rgba(157, 188, 212, 0.55),
       rgba(110, 90, 207, 0.55)
     ),
-    url("img/2.jpg");
+    url('img/2.jpg');
 }
 
 #services {
@@ -83,7 +83,7 @@ section {
       rgba(157, 188, 212, 0.55),
       rgba(110, 90, 207, 0.55)
     ),
-    url("img/3.jpg");
+    url('img/3.jpg');
 }
 
 #contact {
@@ -92,7 +92,7 @@ section {
       rgba(157, 188, 212, 0.55),
       rgba(110, 90, 207, 0.55)
     ),
-    url("img/4.jpg");
+    url('img/4.jpg');
 }
 
 section h1 {
